@@ -1,88 +1,32 @@
-# Python Tic-Tac-Toe Game
+<p align="center">
+  <img src="https://i.imgur.com/oxaVJiK.png" alt="ITS Steve Jobs Academy Logo" width="180">
+</p>
 
-This repository contains a simple implementation of the classic Tic-Tac-Toe game developed in Python. The game features both single-player mode against a computer opponent and a two-player mode for playing with friends.
+# ITS Steve Jobs Academy – Exercise Repository
 
-## Game Features
+This repository contains exercises, examples, or projects developed in the context of [ITS Steve Jobs Academy](https://www.stevejobs.academy/).
 
-- **Two Game Modes**:
-  - Play against the computer
-  - Play against another player
-- **Interactive Command-Line Interface**
-- **Player Customization**:
-  - Choose player names
-  - Select your preferred symbol (X or O)
-- **Game Logic**:
-  - Win detection (horizontal, vertical, and diagonal)
-  - Draw detection
-  - Input validation
-  - Automatic board reset after game completion
+## About
 
-## How to Play
+- The contents of this repository include practical tasks, code samples, or experiments on various topics.
+- Each repository may cover different technologies or subjects.
 
-1. Run the game using Python:
+## How to Use
 
-   ```bash
-   python -m src
-   ```
-
-   or navigate to the src directory and run:
-
-   ```bash
-   python __main__.py
-   ```
-
-2. Choose your game mode:
-   - Play against the computer (PC)
-   - Play against another player (GIOCATORE)
-
-3. Enter player name(s) and choose your symbol (X or O)
-
-4. Make moves by entering row (0-2) and column (0-2) coordinates when prompted
-
-5. The game will automatically detect wins, draws, and reset the board for a new game
-
-## Game Controls
-
-- **Row Input**: Enter a number between 0-2 to select the row
-- **Column Input**: Enter a number between 0-2 to select the column
-- The game validates all inputs and prevents illegal moves
-
-## Code Structure
-
-The game is organized in a single Python module with the following key functions:
-
-- `print_board()`: Displays the current state of the game board
-- `board_full()`: Checks if the board is full (draw condition)
-- `reset_board()`: Resets the board for a new game
-- `check_winner()`: Determines if the current player has won
-- `make_move(x, y)`: Places a player's symbol on the board
-- `computer_move()`: Handles the computer's turn (random move selection)
-- `setup_game()`: Initializes the game with player information
-- `main()`: Main game loop that handles player input and game flow
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-link>
+    ```
+2. **Open the files** with your preferred editor or required software.
+3. **Follow any instructions** or comments provided in the files.
 
 ## Requirements
 
-- Python 3.x
-
-## Example Game Board
-
-```
- X |   |   
------------
-   | O |   
------------
-   |   | X 
-```
-
-## Future Improvements
-
-Potential enhancements for the game could include:
-- Implementing a smarter AI for the computer player
-- Adding a graphical user interface
-- Keeping score across multiple games
-- Adding difficulty levels for the computer opponent
-- Implementing a replay feature
+- A computer with the necessary software/tools for the specific materials in this repository.
+- (Optional) Refer to the documentation or code comments for any additional setup.
 
 ---
 
-*This project was created as part of the educational journey at ITS Steve Jobs Academy.*
+<p align="center">
+  <b>ITS Steve Jobs Academy – Exercises and Projects</b>
+</p>
